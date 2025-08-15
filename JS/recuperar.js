@@ -5,7 +5,7 @@ document.getElementById("recuperarForm").addEventListener("submit", function (ev
 
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
-    const token = Math.floor(100000 + Math.random() * 900000); 
+    const token = Math.floor(100000 + Math.random() * 900000);
 
     if (!name || !email || !email.includes("@")) {
         Swal.fire({
